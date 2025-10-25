@@ -1,0 +1,67 @@
+/* --- Header --- */
+.header-container {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-container h2 {
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    font-size: 28px;
+}
+
+.header-container p {
+    color: #CCCCCC;
+    font-family: 'Arial', sans-serif;
+    margin: 5px 0 0 0;
+}
+
+/* Remove extra margins inside the block */
+.section-container > div {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* --- Messages --- */
+.custom-info {
+    background-color: #FFFFFF;
+    color: #555555;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* --- Tables --- */
+.dataframe {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.dataframe th, .dataframe td {
+    border: 0.5px solid #000000;   /* thin black line */
+    padding: 5px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+/* Colors for delays */
+.delay-zero { background-color: #FFFFFF; color: #000000; }
+.delay-low  { background-color: #F2F2F2; color: #000000; }
+.delay-high { background-color: #D9D9D9; color: #000000; }
+
+
+
+/* --- Plotly charts --- */
+.plotly-graph-div {
+    background-color: #FFFFFF !important;
+    margin: 0 !important;        /* remove extra spacing */
+}
+
