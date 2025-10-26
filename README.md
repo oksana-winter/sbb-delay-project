@@ -1,6 +1,5 @@
 > ⚠️ **Note:** This project is under development. Some features, especially for DB, are not yet implemented.
 
-```markdown
 # Train Delays Dashboard (SBB & Deutsche Bahn) ⚠️ In Development
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
@@ -40,19 +39,24 @@ This project is an interactive **Streamlit** dashboard that tracks train delays 
 
 ## Basic Project Structure
 
-```
 
 sbb-delay-project/
 │
 ├── dashboard.py          # Main Streamlit dashboard
+
 ├── ingest_sbb.py         # Script for loading SBB data into SQLite
+
 ├── ingest_db.py          # Script for loading DB data (placeholder)
+
 ├── sbb_data.db           # SQLite database for SBB
+
 ├── db_data.db            # SQLite database for DB (placeholder)
+
 ├── requirements.txt      # Python dependencies
+
 └── README.md             # Project documentation
 
-````
+
 
 ---
 
@@ -72,7 +76,6 @@ sbb-delay-project/
 * Register at the DB Developer Portal
 * Create an application with OAuth 2.0 Client ID and Client Secret
 * Subscribe to the Timetables API
-* Update `ingest_db.py` with the new token and endpoints
 
 ---
 
